@@ -62,8 +62,8 @@ const DX2LIB::TDXHost_ConfParam param = {
 DX2LIB dx2 ((DX2LIB::TDXHost_ConfParam *)&param);
 
 void setup() {
-  // set baudrate & timeout[ms]
-  dx2.begin (BAUDRATE, 50);
+  // set baudrate[bps] & timeout[ms]
+  dx2.begin (57600, 100);
 }
 
 void loop() {
@@ -96,3 +96,4 @@ bool Reboot(uint8_t id, uint8_t *err);
 ## Licence
 
 [MIT](https://github.com/mukyokyo/dynamixel-library-for-arduino/blob/main/LICENSE)
+
