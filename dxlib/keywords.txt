@@ -1,0 +1,75 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+dxlib	KEYWORD1	DXLIB
+DXLIB	KEYWORD1	DXLIB
+dx2lib	KEYWORD1	DX2LIB
+DX2LIB	KEYWORD1	DX2LIB
+TDXHost_ConfParam	KEYWORD1	DXLIB
+TDXHost_ConfParam	KEYWORD1	DX2LIB
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+WriteBlockData	KEYWORD2
+WriteByteData	KEYWORD2
+WriteWordData	KEYWORD2
+WriteLongData	KEYWORD2
+WriteSyncByteData	KEYWORD2
+WriteSyncWordData	KEYWORD2
+WriteSyncLongData	KEYWORD2
+ReadBlockData	KEYWORD2
+ReadByteData	KEYWORD2
+ReadWordData	KEYWORD2
+ReadLongData	KEYWORD2
+Ping	KEYWORD2
+Reset	KEYWORD2
+SetLED	KEYWORD2
+SetTorqueEnable	KEYWORD2
+SetTorqueEnables	KEYWORD2
+SetTorqueEnablesEquival	KEYWORD2
+GetTorqueEnable	KEYWORD2
+GetTorqueEnables	KEYWORD2
+SetGoalAngle	KEYWORD2
+SetGoalAngles	KEYWORD2
+GetPresentAngle	KEYWORD2
+GetPresentAngles	KEYWORD2
+StandStillAngle	KEYWORD2
+StandStillAngles	KEYWORD2
+SetGoalVelocity	KEYWORD2
+SetGoalVelocities	KEYWORD2
+GetPresentVelocity	KEYWORD2
+GetPresentVelocities	KEYWORD2
+SetGoalAngleAndVelocity	KEYWORD2
+SetGoalAnglesAndVelocities	KEYWORD2
+SetGoalAngleAndTime	KEYWORD2
+SetGoalAnglesAndTime	KEYWORD2
+SetGoalAngleAndTime2	KEYWORD2
+SetGoalAnglesAndTime2	KEYWORD2
+SetGoalCurrent	KEYWORD2
+SetGoalCurrents	KEYWORD2
+GetPresentCurrent	KEYWORD2
+GetPresentCurrents	KEYWORD2
+SetGoalPWM	KEYWORD2
+SetGoalPWMs	KEYWORD2
+GetPresentPWM	KEYWORD2
+GetPresentPWMs	KEYWORD2
+SetMultipleGoalValues	KEYWORD2
+SetDriveMode	KEYWORD2
+SetDriveModesEquival	KEYWORD2
+SetOperatingMode	KEYWORD2
+SetOperatingModesEquival	KEYWORD2
+GetOperatingMode	KEYWORD2
+GetHWErrorCode	KEYWORD2
+GetErrorCode	KEYWORD2
+GetModelInfo	KEYWORD2
+ScanDevices	KEYWORD2
+PrintDevicesList	KEYWORD2
+InitDevicesList	KEYWORD2
