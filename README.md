@@ -70,7 +70,6 @@ void loop() {
 }
 ```
 
-Once initialization is complete, the API can be used according to the instructions.<br>
 Once initialization is complete, the API can be used according to the instructions. Most APIs return success or failure, and all value exchanges are passed via arguments.<br>
 DXL provides a control table for exchanging IDs, addresses, and data. APIs are categorized based on how they access this control table.<br>
 The main APIs are summarized as follows.
