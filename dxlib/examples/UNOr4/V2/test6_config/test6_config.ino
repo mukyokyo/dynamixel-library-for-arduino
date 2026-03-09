@@ -105,13 +105,14 @@ void loop() {
       case 'S':  // scan (use ping2)
         Serial.print("\r\nStat scan\r\n");
         num = 253;
-        num = dxif.Ping2(&num, stat);
-        for (uint8_t i = 0; i <= num; i++) {
-          if (dxif.ReadWordData(stat[i].id, 0, &modelno)) {
-            PModelInfo p = whoareyou(modelno);
-            Serial.print(i);
-            Serial.print(":");
-            Serial.println(p->name);
+        if (dxif.Ping2(&num, stat)) {
+          for (uint8_t i = 0; i < num; i++) {
+            if (dxif.ReadWordData(stat[i].id, 0, &modelno)) {
+              PModelInfo p = whoareyou(modelno);
+              Serial.print(i);
+              Serial.print(":");
+              Serial.println(p->name);
+            }
           }
         }
         break;
