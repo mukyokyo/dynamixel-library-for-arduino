@@ -544,7 +544,7 @@ bool DX2LIB::Ping2(uint8_t *num, TAlarmStatus *AlarmStatus, uint8_t *err) {
     if (err != nullptr) *err = ERR_INVALID_PARAM;
   } else {
     uint32_t prevtimeout = offsettimeout;
-    uint32_t timeout = offsettimeout + 800;
+    uint32_t timeout = offsettimeout + 1200;
     uint32_t detecttime = millis() + timeout;
     if (AlarmStatus != nullptr) {
       if (TxPacket(BROADCASTING_ID, INST_PING, nullptr /*param*/, 0)) {
